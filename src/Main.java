@@ -5,7 +5,8 @@ public class Main {
         WaitingListManager manager = new WaitingListManager();
         Scanner scanner = new Scanner(System.in);
         int choice;
-
+        //Ensure no duplicate names are added to the waiting list.
+        //Provide a simple text-based user interface to interact with the WaitingListManager.
         do {
             System.out.println("\n--- Waiting List Manager ---");
             System.out.println("1. Add Person");
